@@ -1,0 +1,17 @@
+*{
+
+
+}
+/*nav related style*/
+nav{
+    display: flex;
+}
+nav>h2{
+    font-family: 'Open Sans', sans-serif;
+
+}
+li{
+    text-decoration: none;
+    gap: 5rem;
+}
+
