@@ -1,17 +1,53 @@
 *{
-
-
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 /*nav related style*/
 nav{
     display: flex;
-}
-nav>h2{
-    font-family: 'Open Sans', sans-serif;
+   justify-content: space-between;
+   align-items: center;
 
 }
-li{
-    text-decoration: none;
-    gap: 5rem;
+.nav-title{
+color:  #181818;
+font-size: 45px;
+font-weight: 800;
 }
+nav >ul{
+    display: flex;
+ 
+    margin-right: 15px;
+}
+nav  li{
+margin-right: 60px;
+list-style: none;
+}
+nav a{
+text-decoration: none;
+color: var(--Dark-02, #474747);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+span{
+color: #FD6E0A;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
+}
+.btn-primary{
 
+flex-shrink: 0; 
+border-radius: 5px;
+background-color: #FD6E0A;
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+padding: 18px 36px 19px 36px;
+
+}
